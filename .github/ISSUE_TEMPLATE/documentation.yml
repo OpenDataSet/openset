@@ -1,0 +1,19 @@
+name: Documentation 📘
+description: A change in documentation needed
+title: "[Doc]"
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Documentation modification
+        Thanks for taking the time to fill out this documentation modification!
+  - type: textarea
+    id: change
+    attributes:
+      label: What you want to change ?
+      description: Also tell us, what want you to change?
+      placeholder: Tell us what you want!
+      value: "Change this!"
+    validations:
+      required: true

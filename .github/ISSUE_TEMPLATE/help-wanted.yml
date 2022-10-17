@@ -1,0 +1,19 @@
+name: Help wanted ⚠
+description: Some help is needed
+title: "[Help]"
+labels: ["help wanted"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Help wanted
+        Thanks for taking the time to fill out this help wanted!
+  - type: textarea
+    id: change
+    attributes:
+      label: Where you need help ?
+      description: Also tell us, where help is needed?
+      placeholder: Tell us what you want!
+      value: "Help me!"
+    validations:
+      required: true
